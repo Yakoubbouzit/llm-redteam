@@ -2,6 +2,6 @@ import ollama
 
 reponse = ollama.chat(
     model="llama3.2",
-    messages=[{"role": "user", "content": "Explique ce qu'est un RAG en deux phrases."}],
+    messages=[{"role": "user", "content": "Explique c'est quoi un Rag"}],
 )
 print(reponse["message"]["content"])
