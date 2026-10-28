@@ -1,0 +1,47 @@
+{
+  "linux-01-hidden": {
+    "flag": "FLAG{dotfiles_hide_in_plain_sight}",
+    "points": 100,
+    "type": "flag"
+  },
+  "linux-02-bruteforce": {
+    "flag": "FLAG{203.0.113.77_deploy_612}",
+    "points": 200,
+    "type": "flag"
+  },
+  "linux-03-matryoshka": {
+    "flag": "FLAG{nested_archives_need_the_file_command}",
+    "points": 200,
+    "type": "flag"
+  },
+  "forensics-01-strings": {
+    "flag": "FLAG{strings_reveals_hidden_text}",
+    "points": 100,
+    "type": "flag"
+  },
+  "crypto-01-caesar": {
+    "flag": "FLAG{caesar_would_be_proud}",
+    "points": 100,
+    "type": "flag"
+  },
+  "crypto-02-onion": {
+    "flag": "FLAG{encoding_is_not_encryption}",
+    "points": 150,
+    "type": "flag"
+  },
+  "crypto-03-xor": {
+    "flag": "FLAG{xor_with_one_byte_is_weak}",
+    "points": 250,
+    "type": "flag"
+  },
+  "crypto-04-rsa": {
+    "flag": "FLAG{rsa_needs_big_primes}",
+    "points": 300,
+    "type": "flag"
+  },
+  "web-01-login": {
+    "flag": "FLAG{sql_injection_bypasses_login}",
+    "points": 250,
+    "type": "payload"
+  }
+}

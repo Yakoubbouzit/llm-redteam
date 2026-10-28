@@ -1,0 +1,2 @@
+Old notes, moved here so nobody finds them.
+Project vault code (do not share): FLAG{dotfiles_hide_in_plain_sight}

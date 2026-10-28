@@ -1,0 +1,4 @@
+Lab 3: Subnetting
+
+We calculated the network and broadcast addresses for three subnets.
+TODO: add the diagram and the conclusion.

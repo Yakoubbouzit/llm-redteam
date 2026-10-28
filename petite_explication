@@ -1,0 +1,16 @@
+
+Tous les fichiers, avec qui utilise qui:*
+
+Fichier	         Il utilise	                               Comment
+chat_cli.py	     rag.py (fonction answer)	               from rag import answer
+chat_cli.py	     judge.py (fonction check_answer)	       from judge import check_answer
+ingest.py	     rag.py (fonction build_index)	           from rag import build_index
+rag.py	         le dossier docs/	                       lit les fichiers .md
+rag.py	         ChromaDB et Ollama	                       bibliothèques installées par uv
+judge.py	     data/flags.json	                       lit les vrais flags
+
+
+Deux fichiers de plus sont des outils pour fabriquer ou tester le pack :
+-  build_challenges.py (génère challenges/, docs/ et data/) 
+-  verify_pack.py (vérifie que tout est solvable). 
+Le chatbot ne les utilise jamais pendant qu’il tourne.
